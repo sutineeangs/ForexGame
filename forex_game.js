@@ -43,15 +43,14 @@ class ForexGame {
                     var n_unrealized = 0
                     for (var j = i + 1; j < this.port.length; j++) {
 
-                        // console.log('No.', i, '||', 'No.', j);
-                        // console.log(this.port[j].CloseDate, this.port[i].CloseDate, this.port[j].CloseDate);
-                        
-                        if (this.port[i].CloseDate > this.port[j].OpenDate && this.port[i].CloseDate < this.port[j].CloseDate) {
+                        if (Date.parse(this.port[j].OpenTime) < Date.parse(this.port[i].CloseTime) &&
+                            Date.parse(this.port[i].CloseTime) < Date.parse(this.port[j].CloseTime)) {
+                            console.log('No.', i, '||', 'No.', j);
                             n_unrealized++;
                         }
                     }
 
-                    console.log('n_unrealized=',n_unrealized);
+                    console.log('n_unrealized=', n_unrealized);
 
 
                 }
