@@ -17,16 +17,17 @@ async function test() {
     // console.log(currency_all['EURUSD']['2011.04.20']);
     
 
-    // var port_filepath = "./input_files/5602686445.csv";
-    // var port_filename = port_filepath.split('/').pop();
-    // var account_ls = port_filename.split('.');
-    // var account_no = account_ls[0];
-    // var orders = await csv_file_test.read_order_file(port_filepath);
+    var port_filepath = "./input_files/5602686445.csv";
+    var port_filename = port_filepath.split('/').pop();
+    var account_ls = port_filename.split('.');
+    var account_no = account_ls[0];
+    var orders = await csv_file_test.read_order_file(port_filepath);
 
     // console.log(orders[0]);
-    // console.log(orders[1]);
+    // console.log(orders[218].OpenTime.getHours());
     // var forex_game = new ForexGame('5602686445', orders);
     // var res = forex_game.checkPort();
+
 
 }
 

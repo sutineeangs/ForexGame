@@ -8,8 +8,8 @@ class Order {
         this.BuyOrSell = buy_or_sell;
         this.OpenPrice = open_price;
         this.ClosePrice = close_price; 
-        this.OpenTime = open_time; 
-        this.CloseTime = close_time; 
+        this.OpenTime = new Date(open_time); 
+        this.CloseTime = new Date(close_time); 
         this.OpenDate = open_date;
         this.CloseDate = close_date;
         this.Profit = profit; 
