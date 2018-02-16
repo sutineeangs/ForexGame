@@ -45,12 +45,19 @@ class ForexGame {
 
                         if (Date.parse(this.port[j].OpenTime) < Date.parse(this.port[i].CloseTime) &&
                             Date.parse(this.port[i].CloseTime) < Date.parse(this.port[j].CloseTime)) {
-                            console.log('No.', i, '||', 'No.', j);
+                            // console.log('No.', i, '||', 'No.', j);
                             n_unrealized++;
+
+                            //check buy/sell
+                            if(this.port[j].BuyOrSell == 'Buy'){
+                                //buy
+                            }else{
+                                //sell
+                            }
                         }
                     }
 
-                    console.log('n_unrealized=', n_unrealized);
+                    // console.log('n_unrealized=', n_unrealized);
 
 
                 }

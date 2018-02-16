@@ -5,7 +5,7 @@ class Order {
         this.Ticket = ticket; 
         this.Symbol = symbol;
         this.Lots = lots;
-        this.BuyOrsell = buy_or_sell;
+        this.BuyOrSell = buy_or_sell;
         this.OpenPrice = open_price;
         this.ClosePrice = close_price; 
         this.OpenTime = open_time; 

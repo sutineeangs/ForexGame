@@ -1,14 +1,14 @@
 const Order = require('./order.js');
+const Currency = require('./currency.js');
 
 class CSVFile {
 
     constructor() {
         this.fs = require('fs');
         this.csv = require('fast-csv');
-        this.datas = [];
     }
 
-    read(filepath) {
+    read_order_file(filepath) {
         return new Promise(resolve => {
 
             var list = [];
@@ -27,10 +27,10 @@ class CSVFile {
                     ));
                 })
                 .on("end", function () {
+                    console.log(">>>>> Read orders file");
                     console.log("Input file: ", filepath);
-                    console.log("Read csv file: Done!");
                     console.log('The Number of Lines: ', list.length);
-                    this.datas = list;
+                    console.log("Read csv file: Done!");
                     resolve(list);
                 });
 
@@ -39,8 +39,32 @@ class CSVFile {
 
     }
 
-    getDatas() {
-        return this.datas;
+    read_currency_file(currency_name, filepath) {
+        return new Promise(resolve => {
+
+            var list = {};
+
+            var stream = this.fs.createReadStream(filepath);
+            var csvStream = this.csv
+                .parse()
+                .on("data", function (data) {
+
+                    if(data[0] != '' && data[0] != null){
+                        list[data[0]] = new Currency(currency_name,data[0],data[1],data[2],data[3],data[4],data[5]);
+                    }
+
+                })
+                .on("end", function () {
+                    console.log(">>>>> Read currency file");
+                    console.log("Input file: ", filepath);
+                    console.log("Read csv file: Done!");
+                    // console.log(list);
+                    resolve(list);
+                });
+
+            stream.pipe(csvStream);
+        });
+
     }
 
     write(filepath) {
