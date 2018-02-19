@@ -18,13 +18,18 @@ class CSVFile {
                 .parse()
                 .on("data", function (data) {
 
-                    list.push(new Order(
-                        data[0], data[1], data[2], data[3], data[4],
-                        data[5], data[6], data[7], data[8], data[9],
-                        data[10], data[11], data[12], data[13], data[14],
-                        data[15], data[16], data[17], data[18], data[19],
-                        data[20], data[21], data[22]
-                    ));
+                    if (data[0] != "Type") {
+
+                        list.push(new Order(
+                            data[0], data[1], data[2], data[3], data[4],
+                            data[5], data[6], data[7], data[8], data[9],
+                            data[10], data[11], data[12], data[13], data[14],
+                            data[15], data[16], data[17], data[18], data[19],
+                            data[20], data[21], data[22]
+                        ));
+                    }
+
+
                 })
                 .on("end", function () {
                     console.log(">>>>> Read orders file");
@@ -43,21 +48,30 @@ class CSVFile {
         return new Promise(resolve => {
 
             var list = {};
-
             var stream = this.fs.createReadStream(filepath);
             var csvStream = this.csv
                 .parse()
                 .on("data", function (data) {
 
-                    if(data[0] != '' && data[0] != null){
-                        list[data[0]] = new Currency(currency_name,data[0],data[1],data[2],data[3],data[4],data[5]);
+                    // console.log(data);
+
+                    if (data[0] != '' && data[0] != null) {
+                        var str = data[0].split('.');
+                        var y = str[0];
+                        var m = str[1];
+                        var d = str[2];
+                        var new_d = m + '/' + d + '/' + y;
+                        var key = data[0] + ' ' + data[1];
+                        // console.log(key);
+
+                        list[key] = new Currency(currency_name, data[0], data[1], data[2], data[3], data[4], data[5], data[6]);
                     }
 
                 })
                 .on("end", function () {
-                    console.log(">>>>> Read currency file");
-                    console.log("Input file: ", filepath);
-                    console.log("Read csv file: Done!");
+                    // console.log(">>>>> Read currency file");
+                    // console.log("Input file: ", filepath);
+                    // console.log("Read csv file: Done!");
                     // console.log(list);
                     resolve(list);
                 });
@@ -67,16 +81,18 @@ class CSVFile {
 
     }
 
-    write(filepath) {
+    write(filepath, body) {
 
-        var ws = this.fs.createWriteStream(filepath);
+        // var ws = this.fs.createWriteStream(filepath);
+        // this.csv
+        //     .write(body, { headers: true })
+        //     .pipe(ws);
+
         this.csv
-            .write([
-                ["a", "b"],
-                ["a1", "b1"],
-                ["a2", "b2"]
-            ], { headers: true })
-            .pipe(ws);
+            .writeToPath(filepath, body, { headers: true })
+            .on("finish", function () {
+                console.log("write done!");
+            });
 
     }
 }

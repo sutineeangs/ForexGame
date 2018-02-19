@@ -1,0 +1,18 @@
+- ?????????????
+- sl,tp,stopout
+220-1-1 = 218-16 = 202
+
+5602686445 
+RG= 147  RL= 55  UG= 0  UL= 0   sum 202
+RG= 147  RL= 55  UG= 37  UL= 17
+
+5602686445-2 RG= 51  RL= 28  UG= 17  UL= 2
+
+&& this.currency_all[currency_name][date_time]
+'2018.02.16 20:00'
+
+RG= 158  RL= 60  UG= 0  UL= 3     //EURUSD case
+&& this.port[i].OrderComment != '[tp]' && this.port[i].OrderComment != '[sl]' && this.port[i].OrderComment != '[stopout]'
+
+
+m/d/y
