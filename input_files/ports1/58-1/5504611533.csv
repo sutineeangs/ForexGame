@@ -1,0 +1,5 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,67070261,,0,,0,0,2015/10/12 14:46:27,2015/10/12 14:46:27,2015/10/12,2015/10/12,100000,0,0,100000,0,0,0,n/a,0,0,Initial Deposit,jk_5504611533
+Closed position,68102146,EURUSD,3,Buy,1.10608,1.08898,2015/10/30 17:55:14,2015/11/04 16:24:00,2015/10/30,2015/11/04,-5130,-25.2,0,-5155.2,0,1.08898,-171.0,Loss,118.48,0,[sl],jk_5504611533
+Closed position,68082410,USDJPY,3,Sell,120.397,121.577,2015/10/30 13:41:55,2015/11/04 17:46:15,2015/10/30,2015/11/04,-2911.73,-16.39,0,-2928.12,0,121.577,-118.0,Loss,124.07,0,[sl],jk_5504611533

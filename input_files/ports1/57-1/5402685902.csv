@@ -1,0 +1,4 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,117346340,,0,,0,0,2014/10/09 20:00:50,2014/10/09 20:00:50,2014/10/09,2014/10/09,10000,0,0,10000,0,0,0,n/a,0,0,Deposit,a0_5402685902
+Closed position,117452853,USDCHF,1,Sell,0.95254,1.0215,2014/10/14 17:37:33,2016/12/14 22:35:45,2014/10/14,2016/12/14,-6750.86,-3050.37,0,-9801.23,0,0,-689.6,Loss,19012.97,0,so: 19.9% 198.8/1000.0,a0_5402685902

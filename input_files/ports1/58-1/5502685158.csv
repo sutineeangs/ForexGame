@@ -1,0 +1,4 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,67060835,,0,,0,0,2015/10/12 13:27:48,2015/10/12 13:27:48,2015/10/12,2015/10/12,100000,0,0,100000,0,0,0,n/a,0,0,Initial Deposit,jk_5502685158
+Closed position,67812130,AUDCAD,1,Sell,0.95391,0.95283,2015/10/26 11:56:09,2015/10/27 07:31:55,2015/10/26,2015/10/27,81.99,-4.94,0,77.05,0,0,10.8,Win,19.6,0,,jk_5502685158

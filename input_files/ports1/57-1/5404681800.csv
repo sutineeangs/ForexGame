@@ -1,0 +1,4 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,117347346,,0,,0,0,2014/10/09 20:32:08,2014/10/09 20:32:08,2014/10/09,2014/10/09,10000,0,0,10000,0,0,0,n/a,0,0,Deposit,a0_5404681800
+Closed position,117963498,GBPUSD,1,Buy,1.59851,1.5984,2014/10/31 17:18:56,2014/10/31 17:18:56,2014/10/31,2014/10/31,-11,0,0,-11,1.5987,1.5984,-1.1,Loss,0,0,sl,a0_5404681800

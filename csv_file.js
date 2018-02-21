@@ -18,7 +18,7 @@ class CSVFile {
                 .parse()
                 .on("data", function (data) {
 
-                    if (data[0] != "Type") {
+                    if (data[0] == "Closed position") {
 
                         list.push(new Order(
                             data[0], data[1], data[2], data[3], data[4],

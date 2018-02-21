@@ -1,0 +1,4 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,40593427,,0,,0,0,2013/07/11 06:53:40,2013/07/11 06:53:40,2013/07/11,2013/07/11,10000,0,0,10000,0,0,0,n/a,0,0,Deposit,5404680786
+Closed position,40719120,XAUEUR,15,Buy,981,977.06,2013/07/16 04:52:18,2013/07/16 05:34:22,2013/07/16,2013/07/16,-7724.55,0,0,-7724.55,0,0,-39.4,Loss,0.7,0,[stopout],5404680786

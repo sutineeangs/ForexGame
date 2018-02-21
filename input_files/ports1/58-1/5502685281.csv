@@ -1,0 +1,5 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,67061199,,0,,0,0,2015/10/12 13:32:14,2015/10/12 13:32:14,2015/10/12,2015/10/12,100000,0,0,100000,0,0,0,n/a,0,0,Initial Deposit,jk_5502685281
+Closed position,67674127,EURCHF,50,Buy,1.08853,1.08831,2015/10/22 14:05:43,2015/10/22 14:27:12,2015/10/22,2015/10/22,-1143.82,0,0,-1143.82,0,0,-2.2,Loss,0.36,0,,jk_5502685281
+Closed position,67674130,EURCHF,50,Buy,1.08852,1.08832,2015/10/22 14:05:50,2015/10/22 14:27:16,2015/10/22,2015/10/22,-1039.85,0,0,-1039.85,0,0,-2.0,Loss,0.36,0,,jk_5502685281

@@ -1,0 +1,5 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,117346459,,0,,0,0,2014/10/09 20:03:40,2014/10/09 20:03:40,2014/10/09,2014/10/09,10000,0,0,10000,0,0,0,n/a,0,0,Deposit,a0_5502686123
+Closed position,118090441,GOLD,1,Buy,1143.76,1143.4,2014/11/05 17:23:26,2014/11/05 17:23:53,2014/11/05,2014/11/05,-36,0,0,-36,0,0,-3.6,Loss,0.01,0,,a0_5502686123
+Closed position,118063827,GOLD,1,Sell,1148.45,1144.39,2014/11/05 08:58:15,2014/11/05 17:24:08,2014/11/05,2014/11/05,406,0,0,406,0,0,40.6,Win,8.43,0,,a0_5502686123

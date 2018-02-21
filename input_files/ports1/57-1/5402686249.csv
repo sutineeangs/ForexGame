@@ -1,0 +1,6 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,117346485,,0,,0,0,2014/10/09 20:04:43,2014/10/09 20:04:43,2014/10/09,2014/10/09,10000,0,0,10000,0,0,0,n/a,0,0,Deposit,a0_5402686249
+Closed position,117999085,EURCHF,3,Buy,1.20545,1.206,2014/11/03 15:41:08,2014/11/04 05:46:48,2014/11/03,2014/11/04,171.42,-1.55,0,169.87,1.206,0,5.5,Win,14.09,0,tp,a0_5402686249
+Closed position,117998970,AUDUSD,3,Buy,0.87192,0.8736,2014/11/03 15:36:58,2014/11/04 20:54:04,2014/11/03,2014/11/04,504,15.09,0,519.09,0.8736,0,16.8,Win,29.28,0,tp,a0_5402686249
+Closed position,118039971,SILVER,3,Buy,15.98,15.27,2014/11/04 17:22:50,2014/11/05 12:08:09,2014/11/04,2014/11/05,-10650,-3.99,0,-10653.99,0,0,-71,Loss,18.76,0,so: 2.9%/35.0/1198.5,a0_5402686249

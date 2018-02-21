@@ -8,11 +8,15 @@ async function run(){
     // console.log(json);
     // console.log(json["EURUSD 2015.10.29 09:00"]);
 
+    var student_on_class = require('./input_files/json/student_on_class_58.json');
+    var student_with_tp_sl = require('./input_files/json/student_with_tp_sl_58.json');
+    
+
     //Read port files
-    var port_directory = "./input_files/ports2/";
+    var port_directory = "./input_files/ports1/58-1/";
     var port_files = fs.readdirSync(port_directory);
     console.log(port_files);
-    console.log(port_files.length);
+    console.log('files:', port_files.length);
 
     var output = [];
     output.push(["studentID", "RG", "RL", "UG", "UL", "PGR", "PLR"]);
@@ -29,12 +33,18 @@ async function run(){
         // console.log(forex_game.currency_all["EURUSD 2015.10.29 09:00"]);
         
         var data = await forex_game.checkPort();
-        output.push(data);
+        // if(student_on_class[account_no] == false){
+            output.push(data);
+        // }
+
+        // if(student_with_tp_sl[account_no] == false){
+            // output.push(data);
+        // }
         
     }
 
     // console.log(output);
-    csv_file.write('./output_files/output.csv', output);
+    csv_file.write('./output_files/output1/output_58.csv', output);
 
     
     

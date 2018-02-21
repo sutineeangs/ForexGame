@@ -1,0 +1,3 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,117346501,,0,,0,0,2014/10/09 20:05:08,2014/10/09 20:05:08,2014/10/09,2014/10/09,10000,0,0,10000,0,0,0,n/a,0,0,Deposit,a0_5402685175

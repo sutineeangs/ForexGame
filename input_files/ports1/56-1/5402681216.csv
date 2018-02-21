@@ -1,0 +1,6 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,40707501,,0,,0,0,2013/07/15 18:06:13,2013/07/15 18:06:13,2013/07/15,2013/07/15,10000,0,0,10000,0,0,0,n/a,0,0,Deposit,5402681216
+Closed position,40791983,USDJPY,1,Buy,99.865,100.072,2013/07/17 15:18:53,2013/07/18 08:08:51,2013/07/17,2013/07/18,206.85,-3.8,0,203.05,0,0,20.7,Win,16.83,0,,5402681216
+Deposit,51547815,,0,,0,0,2014/10/31 23:59:59,2014/10/31 23:59:59,2014/10/31,2014/10/31,1.45,0,0,1.45,0,0,0,n/a,0,0,IR,5402681216
+Deposit,51547816,,0,,0,0,2014/10/31 23:59:59,2014/10/31 23:59:59,2014/10/31,2014/10/31,-0.11,0,0,-0.11,0,0,0,n/a,0,0,Taxes,5402681216

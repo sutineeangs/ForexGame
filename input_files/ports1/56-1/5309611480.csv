@@ -1,0 +1,5 @@
+sep=,
+Type,Ticket,Symbol,Lots,Buy/sell,Open price,Close price,Open time,Close time,Open date,Close date,Profit,Swap,Commission,Net profit,T/P,S/L,Pips,Result,Trade duration (hours),Magic number,Order comment,Account
+Deposit,40595860,,0,,0,0,2013/07/11 07:43:19,2013/07/11 07:43:19,2013/07/11,2013/07/11,10000,0,0,10000,0,0,0,n/a,0,0,Deposit,5309611480
+Closed position,40871472,GBPUSD,1,Sell,1.52637,1.52913,2013/07/19 14:39:34,2013/07/22 03:05:34,2013/07/19,2013/07/22,-276,-3.8,0,-279.8,1.52159,1.52913,-27.6,Loss,60.43,0,[sl],5309611480
+Closed position,42264941,EURUSD,5,Sell,1.33407,1.3168,2013/08/23 08:05:41,2013/09/04 04:29:29,2013/08/23,2013/09/04,8635,-30,0,8605,0,0,172.7,Win,284.4,0,,5309611480
